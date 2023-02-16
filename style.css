@@ -193,31 +193,167 @@ body {
     background-color: #fff;
     margin-top: 8px;
     height: 60px;
-    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+    /* 行高会继承到三个孩子 */
+    line-height: 60px;
 }
 
-.left h3 {
+.goods h3 {
     float: left;
-    font: 16px 'Microsoft yahei';
-    font-weight: 700;
+    margin-left: 30px;
+    font-size: 16px;
     color: #00a4ff;
-    line-height: 60px;
-    margin: 0 34px;
 }
-.middle ul li {
+
+.goods ul {
     float: left;
-    height: 60px;
-    line-height: 60px;
+    margin-left: 30px;
 }
-.middle ul li a {
-    font: 16px 'Microsoft yahei';
-    border-left: 1px solid #bfbfbf;
-    padding:0 34px;
+
+.goods ul li {
+    float: left;
 }
-.right a {
+
+.goods ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+
+.mod {
     float: right;
-    font: 16px 'Microsoft yahei';
+    margin-right: 30px;
+    font-size: 14px;
     color: #00a4ff;
-    line-height: 60px;
-    margin-right: 27px;
+}
+
+.box {
+    margin-top: 30px;
+}
+
+.box-hd {
+    height: 45px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box-hd>a {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    line-height: 45px;
+    margin-right: 30px;
+}
+
+.box-bd ul {
+    width: 1225px;
+}
+
+.box-bd ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.box-bd ul li a img {
+    width: 100%;
+}
+
+.box-bd ul li a h4 {
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.box-bd ul li a {
+    display: block;
+    width: 228px;
+    height: 270px;
+}
+
+.box-bd ul li a:hover {
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.box-bd .info {
+    font-size: 12px;
+    color: #999999;
+    margin: 0 20px;
+}
+
+.box-bd .info span {
+    color: #ff7c2d;
+}
+
+.footer {
+    height: 250px;
+    background-color: #fff;
+}
+
+/* 在父盒子前后都添加盒子堵住里面的内容 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    /* 转换成表格 */
+}
+
+.clearfix:after {
+    clear: both;
+    /* 清除浮动 */
+}
+
+.clearfix {
+    *zoom: 1;
+    /* 照顾他妈的IE*/
+}
+
+.footer .w {
+    padding-top: 30px;
+}
+
+.copyright {
+    float: left;
+    margin-left: 20px;
+}
+
+.copyright p {
+    font-size: 12px;
+    color: #666;
+    margin: 25px 0 20px 0;
+}
+.copyright a {
+    display: block;
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    color: #00a4ff;
+    border: 2px solid #00a4ff;
+    text-align: center;
+    line-height: 35px;
+}
+
+.links {
+    float: right;
+}
+.links dl {
+    float: left;
+    margin-left: 100px;
+}
+.links dt {
+    font-size: 16px;
+    color: #333;
+}
+.links dd a {
+    font-size: 12px;
+    color: #333;
 }
