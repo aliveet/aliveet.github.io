@@ -1,122 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        a {
-            text-decoration: none;
-            display: block;
-            width: 234px;
-            height: 260px;
-            padding: 20px 0;
-        }
-        a:hover {
-            box-shadow: 0px 10px 10px -4px rgba(0,0,0,.3);
-        }
-        h3 {
-            font-size: 14px;
-            font-weight: 400;
-            text-align: center;
-            color: #000;
-        }
-        p {
-            font-size: 12px;
-            text-align: center;
-            color: rgb(190,190,190);
-            margin-top: 12px;
-        }
-        span {
-            font-size: 14px;
-            color: rgb(255,103,0);
-            display: block;
-            margin-top: 18px;
-        }
-        body {
-            background-color: rgb(245,245,245);
-        }
-
-        .box {
-            width: 978px;
-            height: 300px;
-            margin: 50px auto;
-            background-color: rgb(245,245,245);
-        }
-
-        .box1,
-        .box2,
-        .box3,
-        .box4 {
-            width: 234px;
-            height: 300px;
-            background-color: #fff;
-            float: left;
-            margin-right: 14px;
-            text-align: center;
-        }
-        .box4 {
-            margin-right: 0;
-        }
-        .boxpic img {
-            width: 160px;
-            height: 160px;
-        }
-        .boxpic {
-            text-align: center;
-        }
-    </style>
+    <title>学成在线</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="box">
-        <div class="box1">
-            <a href="#">
-                <div class="boxpic">
-                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202212301043_9e2a889ac4d99a1bbf95aa2defda039a.png?thumb=1&w=200&h=200&f=webp&q=90" alt="">
-                </div>
-                <h3>Readmi 12C</h3>
-                <p>高性能长续航 500万双摄</p>
-                <span>699元起</span>
-            </a>
+    <!-- 头部开始 -->
+    <div class="header w">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
         </div>
-        <div class="box2">
-            <a href="#">
-                <div class="boxpic">
-                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a6cec580260ceb20ae6a885c2c65c611.png?thumb=1&w=200&h=200&f=webp&q=90" alt="">
-                </div>
-                <h3>Readmi 12C</h3>
-                <p>高性能长续航 500万双摄</p>
-                <span>699元起</span>
-            </a>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">课程</a></li>
+                <li><a href="#">职业规划</a></li>
+            </ul>
         </div>
-        <div class="box3">
-            <a href="#">
-                <div class="boxpic">
-                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f37dd30477e7ba040c7fb69c31ad8bf3.png?thumb=1&w=200&h=200&f=webp&q=90" alt="">
-                </div>
-                <h3>Readmi 12C</h3>
-                <p>高性能长续航 500万双摄</p>
-                <span>699元起</span>
-            </a>
+        <!-- 搜索模块 -->
+        <div class="search">
+            <input type="text" value="输入关键词">
+            <button></button>
         </div>
-        <div class="box4">
-            <a href="#">
-                <div class="boxpic">
-                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202212251443_29b17941a7365948446bd193011d9241.png?thumb=1&w=200&h=200&f=webp&q=90" alt="">
-                </div>
-                <h3>Readmi 12C</h3>
-                <p>高性能长续航 500万双摄</p>
-                <span>699元起</span>
-            </a>
+        <!-- 用户 -->
+        <div class="user">
+            <img src="images/user.png" alt="">
+            qq-lilei
         </div>
     </div>
+    <!-- 头部结束 -->
+
+    <!-- banner开始 -->
+    <div class="banner">
+        <!-- 版心 -->
+        <div class="w">
+            <!-- 课程导航栏 -->
+            <div class="subnav">
+                <ul>
+                    <li><a href="#">前端开发<span>></span></a></li>
+                    <li><a href="#">后端开发<span>></span></a></li>
+                    <li><a href="#">移动开发<span>></span></a></li>
+                    <li><a href="#">人工智能<span>></span></a></li>
+                    <li><a href="#">商业预测<span>></span></a></li>
+                    <li><a href="#">云计算&大数据<span>></span></a></li>
+                    <li><a href="#">运维&测试<span>></span></a></li>
+                    <li><a href="#">UI设计<span>></span></a></li>
+                    <li><a href="#">产品<span>></span></a></li>
+                </ul>
+            </div>
+            <!-- 课程表模块 -->
+            <div class="course">
+                <h2>我的课程表</h2>
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <h4>继续学习 程序语言设计</h4>
+                            <p>正在学习-使用对象</p>
+                        </li>
+                        <li>
+                            <h4>继续学习 程序语言设计</h4>
+                            <p>正在学习-使用对象</p>
+                        </li>
+                        <li>
+                            <h4>继续学习 程序语言设计</h4>
+                            <p>正在学习-使用对象</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="more">全部课程</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner结束 -->
 </body>
 
 </html>
