@@ -1,0 +1,322 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 公共 */
+.style_red {
+    color: #c81623;
+}
+
+/* 快捷导航 */
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+/* 快捷导航-左浮动 */
+.fl {
+    float: left;
+}
+
+/* 快捷导航-右浮动 */
+.fr {
+    float: right;
+}
+
+/* 快捷导航-右浮动-li */
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+.arrow-icon::after {
+    /* 使用阿里字体图标第二步声明字体 */
+    font-family: "iconfont";
+    margin-left: 5px;
+    content: "\e687";
+}
+
+/* header头部制作 */
+.header {
+    position: relative;
+    height: 105px;
+}
+
+/* logo制作 */
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+/* 搜索框 */
+.search {
+    position: absolute;
+    left: 50%;
+    margin-left: -269px;
+    top: 25px;
+    width: 538px;
+    height: 35px;
+    border: 2px solid #c81623;
+}
+
+/* 搜索框input */
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+/* 搜索框按钮 */
+.search button {
+    float: right;
+    width: 80px;
+    height: 32px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* 热词 */
+.hotwrods {
+    position: absolute;
+    left: 50%;
+    margin-left: -269px;
+    top: 66px;
+}
+
+.hotwrods a {
+    margin: 0 10px;
+}
+
+/* 购物车 */
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 35px;
+    text-align: center;
+}
+
+.shopcar span {
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    background: url(../images/icons.png) no-repeat -415px -90px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.shopcar::after {
+    font-family: "iconfont";
+    content: "\e688";
+    margin-left: 10px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    /* 此处使用left不适用right是为防止数值过大如出现99999时 气泡会出现偏左的问题 */
+    left: 105px;
+    height: 14px;
+    background-color: #c81623;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+    line-height: 14px;
+}
+
+/* nav导航栏 */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #c81623;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 46px;
+    background-color: #c81623;
+}
+
+/* 全部商品 */
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+    font-size: 16px;
+}
+
+.dropdown:hover .dd {
+    display: block;
+}
+
+.dropdown .dd {
+    /* display: none; */
+    width: 100%;
+    height: 467px;
+    color: #fff;
+    background-color: #e31321;
+    margin-top: 1px;
+}
+
+.dropdown .dd ul li {
+    height: 31px;
+    line-height: 31px;
+    padding-left: 10px;
+    /* 根据美工要求左侧留空 */
+    margin-left: 2px;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+.dropdown .dd ul li::after {
+    font-family: "iconfont";
+    content: "\e688";
+    float: right;
+    margin-right: 10px;
+}
+
+.dropdown .dd ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav .navitems {
+    float: left;
+}
+
+.navitems ul li {
+    float: left;
+}
+.navitems ul li a {
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+/* 底部模块 */
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+.mod_service {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_service ul li {
+    float: left;
+    width: 240px;
+    height: 50px;
+    padding-left: 35px;
+}
+.mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.icons_1 {
+    background: url(../images/icons.png) no-repeat -253px -3px;
+}
+.icons_2 {
+    background: url(../images/icons.png) no-repeat -255px -54px;
+}
+.icons_3 {
+    background: url(../images/icons.png) no-repeat -257px -106px;
+}
+.icons_4 {
+    background: url(../images/icons.png) no-repeat -258px -157px;
+}
+.icons_5 {
+    background: url(../images/icons.png) no-repeat -257px -209px;
+}
+.service_txt {
+    margin-top: 5px;
+}
+.service_txt h4 {
+    font-weight: 700;
+    font-size: 14px;
+}
+.service_txt p {
+    font-size: 12px;
+}
+
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+.mod_help dt {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_copyright {
+    padding-top: 30px;
+    text-align: center;
+}
+.mod_copyright .link ul {
+    /* 一般用有序列表ul>li作为网页中导航的布局元素，在做横向导航时，li标签设置了float:left;已经默认拥有行内块元素的特性，而ul标签还是块级元素。
+    给ul设置：display: inline-block;
+    给ul的父盒子div设置：text-align: center;*/
+    display: inline-block;
+}
+.mod_copyright .link {
+    margin-bottom: 15px;
+}
+.mod_copyright .link ul li {
+    float: left;
+}
+.mod_copyright .link ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 3px 20px;
+}
+.mod_copyright .copyright {
+    line-height: 20px;
+}

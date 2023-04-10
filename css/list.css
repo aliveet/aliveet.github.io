@@ -1,0 +1,58 @@
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 25px;
+    width: 56px;
+    height: 26px;
+    border-left: 2px solid red;
+    padding-left: 12px;
+}
+.sk_list {
+    float: left;
+    width: 372px;
+    height: 46px;
+    line-height: 46px;
+}
+.sk_list ul li{
+    float: left;
+    padding: 0 30px;
+}
+.sk_list ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+}
+.sk_con ul li {
+    float: left;
+    padding: 0 20px;
+}
+.sk_con ul li a {
+    font-size: 14px;    
+}
+.sk_con ul li:last-child a::after {
+    font-family: "iconfont";
+    content: "\e687";
+}
+
+.sk_cintainer {
+    margin-bottom: 15px;
+}
+.sk_bd ul li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+    background: url(../upload/list.jpg) no-repeat;
+}
+.sk_bd ul li:hover {
+    border: 1px solid red;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}

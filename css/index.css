@@ -1,0 +1,315 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 12px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.newsflash .lifeservice {
+    height: 209px;
+}
+
+.newsflash .bargain {
+    margin-top: 6px;
+}
+
+.newsflash .news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 33px;
+    padding: 0 15px;
+}
+.newsflash .news-hd h5 {
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+}
+.newsflash .news-hd .more {
+    float: right;
+}
+.newsflash .news-hd .more::after {
+    font-family: "iconfont";
+    content: "\e688";
+}
+
+.newsflash .news-bd {
+    padding: 5px 15px 0;
+}
+.newsflash .news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+
+.newsflash .lifeservice {
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    /* 受限于float特性第四个由于空间不足会被挤下来可以修改ul来容放第四个 或者可使用百分比*/
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+}
+.lifeservice ul li:nth-child(1) i {
+    background: url(../images/icons.png) no-repeat -17px -16px ;
+}
+.lifeservice ul li:nth-child(2) i {
+    background: url(../images/icons.png) no-repeat -80px -16px ;
+}
+.lifeservice ul li:nth-child(3) i {
+    background: url(../images/icons.png) no-repeat -141px -16px ;
+}
+.lifeservice ul li:nth-child(4) i {
+    background: url(../images/icons.png) no-repeat -206px -16px ;
+}
+.lifeservice ul li:nth-child(5) i {
+    background: url(../images/icons.png) no-repeat -17px -88px ;
+}
+.lifeservice ul li:nth-child(6) i {
+    background: url(../images/icons.png) no-repeat -80px -88px ;
+}
+.lifeservice ul li:nth-child(7) i {
+    background: url(../images/icons.png) no-repeat -141px -88px ;
+}
+.lifeservice ul li:nth-child(8) i {
+    background: url(../images/icons.png) no-repeat -206px -88px ;
+}
+.lifeservice ul li:nth-child(9) i {
+    background: url(../images/icons.png) no-repeat -17px -159px ;
+}
+.lifeservice ul li:nth-child(10) i {
+    background: url(../images/icons.png) no-repeat -80px -159px ;
+}
+.lifeservice ul li:nth-child(11) i {
+    background: url(../images/icons.png) no-repeat -141px -159px ;
+}
+.lifeservice ul li:nth-child(12) i {
+    background: url(../images/icons.png) no-repeat -206px -159px ;
+}
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+.recom-hb {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background: url(../images/recom.png) no-repeat center #5c5251;
+}
+.recom-bd {
+    float: left;
+}
+.recom-bd ul li {
+    position: relative;
+    float: left;
+}
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+.recom-bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.youlike {
+    height: 285px;
+    margin-top: 20px;
+}
+.youlike-hd {
+    height: 40px;
+}
+.youlike-hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.youlike-change {
+    float: right;
+    font-size: 12px;
+}
+.youlike-change::after {
+    font-family: "iconfont";
+    content: "\e67b";
+}
+.youlike-bd {
+    overflow: hidden;
+    height: 230px;
+    border: 1px solid #ccc;
+}
+.youlike-bd ul {
+    width: 1200px;
+}
+.youlike-bd ul li img {
+    width: 200px;
+}
+.youlike-bd ul li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 230px;
+    text-align: center;
+}
+.youlike-bd ul li img {
+    width: 200px;
+    height: 160px;
+}
+.youlike-bd ul li h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+.youlike-bd ul li i {
+    font-size: 18px;
+    color: red;
+}
+.youlike-bd ul li:nth-child(-n+5)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 205px;
+    background-color: #ddd;
+}
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+    margin-left: 15px;
+}
+.tab_list ul li:first-child a{
+    color: red;
+}
+.tab_list ul li:nth-child(-n+8)::after {
+    content: '|';
+    margin-left: 15px;
+}
+.box-bd {
+    height: 361px;
+}
+.tab_list_item div {
+    float: left;
+    height: 361px;
+}
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_210 ul li {
+    float: left;
+    height: 34px;
+    width: 85px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-right: 10px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_329 img {
+    height: 361px;
+}
+.col_221 {
+    width: 221px;
+}
+.tab_list_item .col_221 .col_221-up {
+    height: 50%;
+    border-bottom: 1px solid #ccc;
+}
+.tab_list_item .col_221 .col_221-up img {
+    width: 221px;
+    height: 100%;
+}
+.tab_list_item .col_221 .col_221-down {
+    height: 50%;
+    border-bottom: 1px solid #ccc;
+}
+.tab_list_item .col_221 .col_221-down img {
+    width: 221px;
+    height: 100%;
+}
+.tab_list_item .col_221 .col_221-all {
+    height: 361px;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+.tab_list_item .col_221 .col_221-all img {
+    width: 100%;
+    height: 100%;
+}
+.col_219 {
+    width: 219px;
+}
+.tab_list_item .col_219 .col_219-up {
+    height: 50%;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.tab_list_item .col_219 .col_219-up img {
+    width: 100%;
+    height: 100%;
+}
+.tab_list_item .col_219 .col_219-down {
+    height: 50%;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.tab_list_item .col_219 .col_219-down img {
+    width: 100%;
+    height: 100%;
+}

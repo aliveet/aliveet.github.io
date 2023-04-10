@@ -1,0 +1,134 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 公共 */
+.style_red {
+    color: #c81623;
+}
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.logo {
+    padding-top: 18px;
+}
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea_hd {
+    height: 40px;
+    background-color: #e4e4e4;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px;
+}
+.registerarea_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.registerarea_hd p {
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto;
+    /* background-color: pink; */
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #c81623;
+}
+.succeed {
+    color: green;
+}
+.error_icon,
+.succeed_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    width: 20px;
+    height: 20px;
+}
+.error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+.succeed_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.safe {
+    margin-left: 175px;
+}
+.safe em {
+    padding: 0 10px;
+    color: #fff;
+}
+.ruo {
+    background-color: red;
+}
+.zhong {
+    background-color: green;
+}
+.qiang {
+    background-color: orange;
+}
+.agree {
+    margin-left: 95px;
+}
+.agree input{
+    vertical-align: middle;
+    margin-top: -1px;
+}
+.agree a {
+    color: skyblue;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: red;
+    color: #fff;
+    margin: 30px 0 0 100px;
+}
+
+.mod_copyright {
+    padding-top: 30px;
+    text-align: center;
+}
+.mod_copyright .link ul {
+    /* 一般用有序列表ul>li作为网页中导航的布局元素，在做横向导航时，li标签设置了float:left;已经默认拥有行内块元素的特性，而ul标签还是块级元素。
+    给ul设置：display: inline-block;
+    给ul的父盒子div设置：text-align: center;*/
+    display: inline-block;
+}
+.mod_copyright .link {
+    margin-bottom: 15px;
+}
+.mod_copyright .link ul li {
+    float: left;
+}
+.mod_copyright .link ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 3px 20px;
+}
+.mod_copyright .copyright {
+    line-height: 20px;
+}
